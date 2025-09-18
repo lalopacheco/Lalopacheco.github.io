@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    max-width: 800px; /* centra y limita el ancho */
+    background-color: #f3f3f5;
+    color: #333;
+    line-height: 1.8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #48d1c6;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    text-align: center;       /* Centra el texto */
+    color: #a51313;           /* Rojo a juego con tu estilo */
+    font-size: 20px;          /* Tamaño moderado */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;      /* Espaciado entre letras */
+    font-weight: 600;         /* Semi-negrita */
+}
+
+
+h2 {
+    color: #0b0b0c;
+    border-left: 4px solid #141416;
+    padding-left: 10px;
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+/* Imagen de perfil */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 3px solid #111214;
+    width: 160px;
+    height: 190px;
+    object-fit: cover;
+}
+
+/* Listas */
+ul {
+    padding-left: 25px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+/* Párrafos */
+p {
+    text-align: justify;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+/* Información de contacto */
+p strong {
+    color: #060511;
+    font-weight: bold;
+}
